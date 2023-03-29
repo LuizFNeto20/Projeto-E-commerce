@@ -7,6 +7,7 @@ Projeto front-end da escola DNC de um e-commerce de games.
 ## Documentação
 
 O projeto consiste em três telas e dois modais:
+
 ```1ª tela```
 
 A primeira tela é a tela de login, que possui um formulário e foi feita função de validação genérica que pode ser reutilizada em outros formulários sem modificação. Além disso, essa tela conta com um componente chamado <HeaderMenu>, que é alterado de acordo com a página inserida.
