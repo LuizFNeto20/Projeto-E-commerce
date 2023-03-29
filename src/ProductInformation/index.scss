@@ -1,0 +1,22 @@
+@use "../assets/Scss/variables" as *;
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102.6%;
+    background-color: $background-modal;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    display: flex
+}
+
+.background {
+    background-color: $black;
+}

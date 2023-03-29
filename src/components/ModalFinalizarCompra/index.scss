@@ -1,0 +1,78 @@
+@use "../../assets/Scss/variables" as *;
+
+.modal-form h1 {
+    color: $contrast-color;
+    margin: 0 20% 3% 0;
+}
+
+.form-modal {
+    margin: 0 6% 0 0;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-modal label {
+    margin-bottom: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: $black;
+}
+
+.form-modal input {
+    width: 100%;
+    height: 20px;
+    padding: 11px 13px;
+    background: $white;
+
+    border: 2px solid $border-input-color;
+    border-radius: 10px;
+
+    gap: 8px;
+}
+
+.form-modal button {
+    cursor: pointer;
+
+    height: 48px;
+    margin: 0 0 0 6.5%;
+    padding: 20px 36px;
+    background: $contrast-color;
+
+    border: none;
+    border-radius: 6px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: $white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-modal button:hover {
+    background-color: $hover-button;
+    transition: 0.3s ease-in-out;
+}
+
+.error-modal {
+    opacity: 0;
+    font-size: 10px;
+    margin: 1% 0 1% 76%;
+    color: $error;
+}
+
+#error {
+    opacity: 0;
+    font-size: 10px;
+    margin: 1% 0 1% 60%;
+    color: $error;
+}
